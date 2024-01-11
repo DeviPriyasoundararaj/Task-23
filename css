@@ -1,0 +1,51 @@
+/* App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* UsersList.css */
+.users-list {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.users-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.users-list li {
+  margin-bottom: 10px;
+}
+
+/* UserProfile.css */
+.user-profile {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Form.css */
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
